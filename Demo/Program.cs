@@ -30,6 +30,19 @@ namespace Demo
         //    subResult = fNumber - sNumber;
         //}
 
+
+        //static void MinMaxArray(ref int[] arr ,ref int maxResult,ref int minResult ) {
+
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {
+        //        if (arr[i] > maxResult)
+        //            maxResult = arr[i];
+        //        if (arr[i] < minResult)
+        //            minResult = arr[i];
+                
+        //    }
+
+        }
         static void Main(string[] args)
         {
 
@@ -53,7 +66,7 @@ namespace Demo
 
             #endregion
 
-            #region Q2)
+            #region Q2)Write a c# Function that accept 4 parameters from user and return result of summation and subtracting of two numbers
             //int fNumber=0,  sNumber=0;
             //bool isParsed = false;
             //int sumResult, subResult;
@@ -76,6 +89,15 @@ namespace Demo
             //Console.WriteLine(sumResult);
             //Console.WriteLine(subResult);
             //// we use out parameter to return more than single value
+            #endregion
+
+            #region Q3)Create a function named MinMaxArray, to return the minimum and maximum values stored in an array, using reference parameters
+
+
+            //int[] arr = {8, 2, 3, 4, -4, 6, 7, 1 };
+            //int maxResult = arr[0],minResult = arr[0];
+            //MinMaxArray(ref arr,ref maxResult,ref minResult);
+            //Console.WriteLine($"Min Number is : {minResult}, Max Number is {maxResult}");
             #endregion
         }
     }
